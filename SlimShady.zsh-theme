@@ -1,5 +1,5 @@
 local user='%{$fg[yellow]%}%n%{$fg[magenta]%}✗'
-local pwd='%{$fg[cyan]%}%c'
+local pwd='%{$fg_bold[cyan]%}%c'
 local git='%{$fg_bold[blue]%}$(git_prompt_info)'
 local time='%{$fg_bold[red]%}[%*]%{$reset_color%}'
 
