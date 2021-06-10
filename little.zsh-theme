@@ -1,7 +1,7 @@
 local pwd='%{$fg_bold[cyan]%}%c'
 local git='$(git_prompt_info)'
 
-PROMPT="${pwd} %{$fg_bold[green]%}➜%{$reset_color%} "
+PROMPT="%{$fg_bold[magenta]%}✗ ${pwd} %{$fg_bold[green]%}➜%{$reset_color%} "
 RPROMPT="${git}"
 
 ZSH_THEME_GIT_PROMPT_PREFIX=" %{$fg_bold[blue]%}\ue0a0 %{$fg[red]%}"
